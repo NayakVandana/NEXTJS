@@ -1,11 +1,12 @@
-const Login=()=> {
+import Link from "next/link";
 
-
-    return (
-      <main >
-        <h1>Login Page</h1>       
-      </main>
+const Login =()=>{
+    return(
+        <div>
+            <h1>Login Page</h1>
+            <Link href="/" >Go to Home Page</Link>
+        </div>
     )
-  }
+}
 
-  export default Login;
+export default Login;
